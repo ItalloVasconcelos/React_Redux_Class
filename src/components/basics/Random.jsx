@@ -1,6 +1,8 @@
 export default function Random() {
-    const selectedMin = prompt("Coloque o valor mínimo:");
-    const selectedMax = prompt("Coloque o valor máximo:");
+    //Antes era código de prompt: const selectedMin = prompt("Coloque o valor mínimo:");
+    const selectedMin = 1;
+    //Antes era código de prompt: const selectedMax = prompt("Coloque o valor máximo:");
+    const selectedMax = 60;
     const randomNumber = parseInt(Math.random() * (selectedMax - selectedMin) + selectedMin);
 
     return (
