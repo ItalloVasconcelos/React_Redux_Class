@@ -4,6 +4,7 @@ import First from "./components/basics/First";
 import WithParameters from "./components/basics/WithParameters";
 import Fragment from "./components/basics/Fragment";
 import Random from "./components/basics/Random";
+import RandomOfClass from "./components/basics/RandomOfClass";
 
 export default function App() {
     return (
@@ -14,5 +15,7 @@ export default function App() {
             <First/>
 
             <Random/>
+
+            <RandomOfClass min={1} max={60} />
         </div>)
 }
