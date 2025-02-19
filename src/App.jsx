@@ -10,6 +10,9 @@ import RandomOfClass from "./components/basics/RandomOfClass";
 import Family from "./components/basics/Family";
 import Card from "./components/layout/Card";
 import MemberFamily from "./components/basics/MemberFamily";
+import StudentsList from "./components/loops/StudentsList";
+import ProductsList from "./components/loops/ProductsList";
+import EvenOrOdds from "./components/conditionals/EvenOrOdds";
 
 
 export default function App() {
@@ -38,6 +41,17 @@ export default function App() {
                         <MemberFamily name="Juca" />
                         <MemberFamily name="Tamarino" />
                     </Family>
+                </Card>
+                <Card titulo="#06 - Loops - Lista de alunos" color="#3939ac">
+                    <StudentsList>
+
+                    </StudentsList>
+                </Card>
+                <Card titulo="#07 - Loops - Lista de produtos - Exercicio" color="#990000">
+                    <ProductsList/>
+                </Card>
+                <Card titulo="#08 - Par ou impar" color="#e6e600">
+                    <EvenOrOdds />
                 </Card>
             </div>
         </div>
