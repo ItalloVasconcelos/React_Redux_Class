@@ -13,6 +13,9 @@ import MemberFamily from "./components/basics/MemberFamily";
 import StudentsList from "./components/loops/StudentsList";
 import ProductsList from "./components/loops/ProductsList";
 import EvenOrOdds from "./components/conditionals/EvenOrOdds";
+import InfoUser from "./components/conditionals/InfoUser";
+import DirectDad from "./components/comunication/DirectDad";
+import IndirectDad from "./components/comunication/IndirectDad";
 
 
 export default function App() {
@@ -52,6 +55,14 @@ export default function App() {
                 </Card>
                 <Card titulo="#08 - Par ou impar" color="#e6e600">
                     <EvenOrOdds />
+                    <InfoUser user={{name: "Fernando"}}></InfoUser>
+                    <InfoUser user={{email: "fer@nando.com"}}></InfoUser>
+                </Card>
+                <Card titulo="#09 - Comunicação Direta" color="#990000">
+                    <DirectDad/>
+                </Card>
+                <Card titulo="#10 - Comunicação Indireta" color="#8bad39">
+                    <IndirectDad/>
                 </Card>
             </div>
         </div>
