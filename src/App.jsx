@@ -16,6 +16,7 @@ import EvenOrOdds from "./components/conditionals/EvenOrOdds";
 import InfoUser from "./components/conditionals/InfoUser";
 import DirectDad from "./components/comunication/DirectDad";
 import IndirectDad from "./components/comunication/IndirectDad";
+import Input from "./components/form/Input";
 
 
 export default function App() {
@@ -63,6 +64,9 @@ export default function App() {
                 </Card>
                 <Card titulo="#10 - Comunicação Indireta" color="#8bad39">
                     <IndirectDad/>
+                </Card>
+                <Card titulo="#11 - Componente controlado (Input)" color="#E45F56">
+                    <Input />
                 </Card>
             </div>
         </div>
