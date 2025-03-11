@@ -17,6 +17,7 @@ import InfoUser from "./components/conditionals/InfoUser";
 import DirectDad from "./components/comunication/DirectDad";
 import IndirectDad from "./components/comunication/IndirectDad";
 import Input from "./components/form/Input";
+import Counter from "./components/counter/Counter";
 
 
 export default function App() {
@@ -67,6 +68,9 @@ export default function App() {
                 </Card>
                 <Card titulo="#11 - Componente controlado (Input)" color="#E45F56">
                     <Input />
+                </Card>
+                <Card titulo="#12 - Contador com classes" color="#C6C6C6">
+                    <Counter inicialNumber={10}> </Counter>
                 </Card>
             </div>
         </div>
