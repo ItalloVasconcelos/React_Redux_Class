@@ -18,6 +18,7 @@ import DirectDad from "./components/comunication/DirectDad";
 import IndirectDad from "./components/comunication/IndirectDad";
 import Input from "./components/form/Input";
 import Counter from "./components/counter/Counter";
+import Mega from "./components/loteryChallange/Mega";
 
 
 export default function App() {
@@ -71,6 +72,9 @@ export default function App() {
                 </Card>
                 <Card titulo="#12 - Contador com classes" color="#C6C6C6">
                     <Counter inicialNumber={10}> </Counter>
+                </Card>
+                <Card titulo="#13 - Desafio Megasena" color="#C6C6C6">
+                    <Mega />
                 </Card>
             </div>
         </div>
